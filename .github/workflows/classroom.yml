@@ -26,7 +26,6 @@ jobs:
           area = 314.1592653589793
         comparison-method: contains
         timeout: 10
-      continue-on-error: TRUE
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
